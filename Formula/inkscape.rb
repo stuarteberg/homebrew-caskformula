@@ -39,7 +39,7 @@ class Inkscape < Formula
   depends_on "little-cms"
   depends_on "pango"
   depends_on "popt"
-  depends_on "poppler"
+  depends_on "poppler" => "0.71.0"
   depends_on "potrace"
 
   depends_on "gtkmm3" if build.with? "gtk3"
